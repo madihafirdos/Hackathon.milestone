@@ -1,0 +1,82 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #e6f0fa;
+}
+
+h1 {
+    text-align: center;
+    color: #084688;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #b3e7e1;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(207, 10, 10, 0.5);
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid #6195d1;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(226, 239, 250);  
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    font-size: 30;
+    color: #262f38;
+}
+
+label{
+    display: center;
+    margin-top: 15px;
+    color:rgb(8, 8, 8);
+    font-size: 20;
+
+}
+
+input, textarea {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 2px;
+    border: 1px solid #89b6b4;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(144, 221, 208);
+    color: rgb(172, 13, 13);
+    border-radius: 80px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Avenir Next', Times, serif;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #719269;
+}
+
+.profilePicture {
+    display: block;
+    margin: auto;
+    border: 2px solid ;
+    box-shadow: 0 4px 8px rgba(7, 10, 10, 0.5);
+    border-radius:500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover; 
+}

@@ -1,0 +1,90 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #e6f0fa;
+}
+
+h1 {
+    text-align: center;
+    color: #084688;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #b3e7e1;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(207, 10, 10, 0.5);
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid #6195d1;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(226, 239, 250);  
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #262f38;
+    
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+    color:rgb(8, 8, 8);
+
+}
+
+input, textarea {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 2px;
+    border: 1px solid #89b6b4;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(144, 221, 208);
+    color: black;
+    border-radius: 80px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Avenir Next', Times, serif;
+}
+
+button:hover {
+    background-color: #719269;
+}
+
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #68c3e4;
+    border-radius: 8px;
+    background-color: rgb(226, 239, 250);
+    box-shadow: 0 4px 8px rgba(7, 10, 10, 0.5);
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 2px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+#resumeOutput h2 {
+    color: #2c3e50;
+}
